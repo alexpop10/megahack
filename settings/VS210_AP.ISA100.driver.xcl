@@ -6,13 +6,15 @@
 
 "-p" 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\CONFIG\debugger\ST\STM32L486RG.ddf" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\CONFIG\debugger\ST\STM32L486RG.ddf" 
 
 "--drv_verify_download" 
 
 "--semihosting" 
 
 "--device=STM32L486RG" 
+
+"--drv_debug_ap=0" 
 
 "--stlink_reset_strategy=0,0" 
 
